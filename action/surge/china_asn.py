@@ -1,7 +1,7 @@
 import os
 import requests
 urls = [
-"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list",
+"https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list",
 ]
 result = []
 for url in urls:
