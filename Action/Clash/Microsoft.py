@@ -1,7 +1,6 @@
 import requests
 urls = [
-# "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list",
-"https://ruleset.skk.moe/Clash/non_ip/ai.txt",
+"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
 ]
 result = []
 for url in urls:
@@ -11,5 +10,5 @@ for url in urls:
             result.append(item)
 
 
-with open("./clash/OpenAI.txt", "w") as f:
+with open("./Clash/Microsoft.txt", "w") as f:
     f.write("\n".join(result))

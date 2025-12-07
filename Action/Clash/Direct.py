@@ -17,5 +17,5 @@ for url in urls:
             result.append(item)
 
 
-with open("./clash/Direct.txt", "w") as f:
+with open("./Clash/Direct.txt", "w") as f:
     f.write("\n".join(result))

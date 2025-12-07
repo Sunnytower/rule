@@ -1,6 +1,6 @@
 import requests
 urls = [
-"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list",
+"https://ruleset.skk.moe/Clash/non_ip/microsoft.txt",
 ]
 result = []
 for url in urls:
@@ -10,5 +10,5 @@ for url in urls:
             result.append(item)
 
 
-with open("./surge/ChinaASN.list", "w") as f:
+with open("./Surge/Microsoft.list", "w") as f:
     f.write("\n".join(result))

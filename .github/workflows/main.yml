@@ -29,11 +29,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build up
-        run: for f in action/*/*.py; do python "$f"; done
+        run: for f in Action/*/*.py; do python "$f"; done
       - name: Run script file
         run: |
-         chmod +x ./action/script.sh
-         ./action/script.sh
+         chmod +x ./Action/Script.sh
+         ./Action/Script.sh
         shell: bash
       # Runs a set of commands using the runners shell
 #       - name: Commit files
