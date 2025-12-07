@@ -1,3 +1,4 @@
+import os
 import requests
 urls = [
 "https://ruleset.skk.moe/Clash/non_ip/domestic.txt",
@@ -16,6 +17,8 @@ for url in urls:
         if (item not in result) and (not item.startswith('#') and (not item.startswith("USER-AGENT"))):
             result.append(item)
 
+file_path = "./clash/direct.txt"
+os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open("./clash/direct.txt", "w") as f:
+with open(file_path, "w") as f:
     f.write("\n".join(result))

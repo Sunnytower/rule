@@ -1,3 +1,4 @@
+import os
 import requests
 urls = [
 "https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt",
@@ -9,6 +10,8 @@ for url in urls:
         if (item not in result) and (not item.startswith('#')):
             result.append(item)
 
+file_path = "./clash/appe_cdn.txt"
+os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open("./clash/apple_cdn.txt", "w") as f:
+with open(file_path, "w") as f:
     f.write("\n".join(result))
