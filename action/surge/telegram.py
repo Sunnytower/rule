@@ -1,10 +1,7 @@
 import os
 import requests
 urls = [
-# "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list",
-"https://ruleset.skk.moe/Clash/non_ip/cdn.txt",
-"https://ruleset.skk.moe/Clash/non_ip/global.txt",
-"https://ruleset.skk.moe/Clash/non_ip/download.txt",
+"https://ruleset.skk.moe/List/non_ip/telegram.conf",
 ]
 result = []
 for url in urls:
@@ -13,7 +10,7 @@ for url in urls:
         if (item not in result) and (not item.startswith('#')):
             result.append(item)
 
-file_path = "./clash/global.txt"
+file_path = "./surge/telegram.list"
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 with open(file_path, "w") as f:

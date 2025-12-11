@@ -5,7 +5,6 @@ urls = [
 "https://ruleset.skk.moe/List/non_ip/cdn.conf",
 "https://ruleset.skk.moe/List/non_ip/global.conf",
 "https://ruleset.skk.moe/List/non_ip/download.conf",
-"https://ruleset.skk.moe/List/non_ip/telegram.conf",
 ]
 result = []
 for url in urls:
