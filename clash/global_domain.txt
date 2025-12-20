@@ -1430,6 +1430,7 @@ cloudfront.codeproject.com
 +.cloudatacdn.com
 +.cdn-website.com
 events.ld.catamorphic.com
++.cartastatic.com
 cdn.calibermind.com
 e.calibermind.com
 +.bstarstatic.com
@@ -2768,6 +2769,7 @@ heatmap-external-a.strava.com
 web-assets.strava.com
 content-a.strava.com
 cdn-1.strava.com
+cdn.stonly.com
 +.ss-cdn.com
 +.sndimg.com
 +.sndcdn.com
