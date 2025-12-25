@@ -937,6 +937,7 @@ DOMAIN-SUFFIX,huaweimobilewifi.com
 DOMAIN-SUFFIX,springernature.com
 DOMAIN,setmeup.arubanetworks.com
 DOMAIN,instant.arubanetworks.com
+DOMAIN-SUFFIX,webofscience.com
 DOMAIN-SUFFIX,routerlogin.com
 DOMAIN-SUFFIX,asusrouter.com
 DOMAIN-SUFFIX,nanyangpt.com

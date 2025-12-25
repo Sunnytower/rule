@@ -631,6 +631,7 @@ DOMAIN-SUFFIX,sendbird.com
 DOMAIN-SUFFIX,scp-wiki.com
 DOMAIN-SUFFIX,saucenao.com
 DOMAIN-SUFFIX,roboflow.com
+DOMAIN-SUFFIX,regex101.com
 DOMAIN-SUFFIX,recombee.com
 DOMAIN-SUFFIX,quillbot.com
 DOMAIN-SUFFIX,porntube.com
