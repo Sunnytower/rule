@@ -92,7 +92,7 @@ img.itch.zone
 static.frame.work
 tn.txxx.tube
 js.txxx.tube
-ipfs.d.tube
+media.d.tube
 media.remax-prod.eng.remax.tech
 static.pepy.tech
 packages.jetbrains.team
@@ -224,6 +224,7 @@ static-cdn.bytegiftia.top
 .gitcdn.top
 .balley.top
 .akidoo.top
+.dget.top
 css.4jpg.top
 .cktu01.sbs
 .bundle.run
@@ -634,7 +635,6 @@ interactive-examples.mdn.mozilla.net
 .minotar.net
 .jscloud.net
 pg2dhpc3p5ec22g3.jkforum.net
-play.izanmei.net
 file.izanmei.net
 cdn-img3.iporntv.net
 cdn-img2.iporntv.net
@@ -773,6 +773,7 @@ s3.arkjp.net
 .img2.acsta.net
 .img1.acsta.net
 cdn.ywxi.net
+static.wwto.net
 fonts.sony.net
 www-static.ripe.net
 static.plus.net
@@ -822,6 +823,7 @@ static.coinall.ltd
 image.acg.lol
 cdn.cbd.int
 tile2.intervals.icu
+static.izanmei.icu
 .cthd.icu
 time-a.nist.gov
 images-assets.nasa.gov
@@ -838,6 +840,10 @@ cdn-web.orbstack.dev
 logos.composio.dev
 .workers.dev
 .skypack.dev
+.latam.orbitor.dev
+.ipfs.orbitor.dev
+.apac.orbitor.dev
+.eu.orbitor.dev
 .angular.dev
 .vercel.dev
 stats.setapp.macpaw.dev
@@ -1191,7 +1197,6 @@ meteorclient.com
 .meetupstatic.com
 .media-amazon.com
 cdn.manageengine.com
-player.louisvuitton.com
 assets.lemonsqueezy.com
 cdn.lemonsqueezy.com
 unsubscribe-imgs.leavemealone.com
@@ -2204,7 +2209,6 @@ cdn.getkoala.com
 assets.getkirby.com
 geoip-js.com
 maps.geoapify.com
-img4.gelbooru.com
 img2.gelbooru.com
 .scripts.gatorapi.com
 .gammacdn.com
@@ -2241,6 +2245,7 @@ cdn4.edgedatg.com
 cdn3.edgedatg.com
 cdn2.edgedatg.com
 cdn1.edgedatg.com
+.ipfs.ecolatam.com
 vip.dytt-img.com
 .drivecdn.com
 cdn.dribbble.com
@@ -2266,7 +2271,6 @@ dynamic-assets.coinbase.com
 static-assets.coinbase.com
 assets.coinbase.com
 assets.codeguru.com
-logo.clearbit.com
 assets-growth-common.circleci.com
 assets-docs.circleci.com
 cdn-assets.circleci.com
@@ -2437,6 +2441,8 @@ image.prntscr.com
 st.prntscr.com
 cdn.privacy.com
 app-static.eu.posthog.com
+us-assets.i.posthog.com
+eu-assets.i.posthog.com
 cdn77-t.pornoxo.com
 cdn77.pornoxo.com
 pics.pornfhd.com
@@ -2882,7 +2888,8 @@ miro.medium.com
 twemoji.maxcdn.com
 static-assets.mapbox.com
 .tiles.mapbox.com
-sato.manyse.com
+test.manyse.com
+img.manyse.com
 cdn2-imgix.macpaw.com
 api-lytics.macpaw.com
 cdn2.macpaw.com
@@ -3561,8 +3568,6 @@ media.dev.to
 video2.7mmtv.sx
 video1.7mmtv.sx
 piccdn.7mmtv.sx
-img.kemono.su
-img.coomer.su
 .jpg5.su
 0x0.st
 udata.namespace.so
@@ -3834,6 +3839,7 @@ widget.intercom.io
 .ik.imagekit.io
 icon.icepanel.io
 cdn.hackaday.io
+.ipfs.filebase.io
 .ipfs.denarius.io
 .rum.cronitor.io
 cdn.commento.io
@@ -4146,6 +4152,7 @@ assets.cloudpilot.ai
 api.instantly.ai
 sdk.customfit.ai
 static.returngo.ai
+file.xiaohai.ai
 prod-cdn.webtune.ai
 widget.docsbot.ai
 cdn.aimerce.ai
@@ -4153,6 +4160,7 @@ vetted.ai
 static.netify.ai
 r2.leadsy.ai
 cdn.fellou.ai
+play.xiaoh.ai
 tag.tvads.ai
 s3.masto.ai
 participants.evolv.ai
@@ -4621,7 +4629,6 @@ speedtest-net-servers.cdn.skk.moe
 chnroutes2.cdn.skk.moe
 filters.cdn.skk.moe
 mirror.gsl.icu
-ftp.cc.uoc.grs
 linux-mirrors.fnal.gov
 maven.is-quite.gay
 ctan.math.washington.edu
@@ -5232,7 +5239,6 @@ dist.blizzard.com
 desktop.wifiman.com
 mirror.virtury.com
 autoupdate.termius.com
-mirrors.eze.sysarmy.com
 enterprise.proxmox.com
 ubuntu.parsvds.com
 mirrors.nxthost.com
@@ -6009,8 +6015,7 @@ mirror.unix-solutions.be
 ctan.space-pro.be
 ftp.belnet.be
 lib.ugent.be
-apache.cu.be
-kde.cu.be
+.mirrors.cu.be
 mirror.visiontech.com.bd
 mirror.amberit.com.bd
 ubuntu-mirror.bhtelecom.ba
@@ -6045,7 +6050,6 @@ debian.mur.at
 ubuntu.uni-klu.ac.at
 ftp.tu-graz.ac.at
 mirrors.sarak.as
-mirrors.dc.clear.net.ar
 debian.unnoba.edu.ar
 ubuntu.unc.edu.ar
 cpan.mmgdesigns.com.ar
