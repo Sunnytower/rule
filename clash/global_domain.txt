@@ -844,6 +844,7 @@ i.jpg.dog
 tuf-repo-cdn.sigstore.dev
 pkg-size.dev
 cdn-web.orbstack.dev
+storybooks.fluentui.dev
 logos.composio.dev
 +.workers.dev
 +.skypack.dev
@@ -1138,6 +1139,7 @@ images8.design-editor.com
 images7.design-editor.com
 images.design-editor.com
 assets.cyberghostvpn.com
+storage.courtlistener.com
 s3.cointelegraph.com
 academy-public.coinmarketcap.com
 s3.coinmarketcap.com
@@ -1297,6 +1299,7 @@ app.viral-loops.com
 vectorified.com
 static-cdn.usertesting.com
 +.js.usemessages.com
+usehooks-ts.com
 asset-cdn.uscardforum.com
 www-cdn.uscardforum.com
 psp-logos.uptimerobot.com
@@ -2008,6 +2011,7 @@ assets.bitwarden.com
 upos-sz-mirrorcosbstar1.bilivideo.com
 upos-sz-mirroralibstar1.bilivideo.com
 secure.beer7live.com
+assets.bbystatic.com
 cdn.babylonjs.com
 +.awsstatic.com
 atl-global.atlassian.com
@@ -2305,6 +2309,10 @@ app.chatwoot.com
 +.chasecdn.com
 js.chargify.com
 +.cdnfonts.com
+cdn-stamplib.casetify.com
+cdn-image02.casetify.com
+cdn-image01.casetify.com
+cdn.casetify.com
 +.cartocdn.com
 reviews-badge.capterra.com
 assets.capterra.com
