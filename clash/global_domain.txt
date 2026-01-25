@@ -203,6 +203,7 @@ cdn.redwap.xyz
 +.chcdn.xyz
 cdn-longterm.mee6.xyz
 vod.jfly.xyz
+sdk-cdn.fun.xyz
 img.hentaihaven.xxx
 +.imhentai.xxx
 i.xozilla.xxx
@@ -1237,6 +1238,7 @@ rest.happierleads.com
 cdn.googlesource.com
 +.githubassets.com
 m3u8.girigirilove.com
++.getaroom-cdn.com
 +.framerstatic.com
 static.filestackapi.com
 staticm.fastcomments.com
@@ -1548,6 +1550,7 @@ img.sparknotes.com
 w.soundcloud.com
 static.solarwinds.com
 rum-agent.na-01.cloud.solarwinds.com
+cdn.snaptravel.com
 webappassets.smartsheet.com
 +.slack-imgs.com
 +.slack-edge.com
@@ -1855,6 +1858,7 @@ img.represent.com
 +.siteintercept.qualtrics.com
 jfe-cdn.qualtrics.com
 js.qualified.com
+plugins.pubtailer.com
 vpncdn.protonweb.com
 pmecdn.protonweb.com
 content.powerapps.com
@@ -2025,6 +2029,7 @@ api.media.atlassian.com
 +.aspnetcdn.com
 +.appmifile.com
 +.anyhentai.com
+www-cdn.anthropic.com
 s-cdn.anthropic.com
 a-cdn.anthropic.com
 +.ipfs.anonymize.com
@@ -3110,7 +3115,9 @@ cdn.cloud.unity.com
 media1.tenor.com
 media.tenor.com
 c.tadst.com
++.tacdn.com
 +.t8cdn.com
+cdn.super.com
 assets.stash.com
 cdn.stash.com
 +.srcdn.com
@@ -3903,6 +3910,7 @@ icon.icepanel.io
 cdn.hackaday.io
 +.ipfs.filebase.io
 +.ipfs.denarius.io
+assets.customer.io
 +.rum.cronitor.io
 +.cloudimg.io
 static.assetlab.io
@@ -5002,6 +5010,7 @@ downloadr2.apkmirror.com
 +.s3-website.us-gov-west-1.amazonaws.com
 +.s3-accesspoint-fips.dualstack.us-gov-west-1.amazonaws.com
 +.s3-accesspoint.dualstack.us-gov-west-1.amazonaws.com
++.s3-website.dualstack.us-gov-west-1.amazonaws.com
 +.s3-fips.dualstack.us-gov-west-1.amazonaws.com
 +.s3.dualstack.us-gov-west-1.amazonaws.com
 +.s3-fips.us-gov-west-1.amazonaws.com
@@ -5012,6 +5021,7 @@ downloadr2.apkmirror.com
 +.s3-website.us-gov-east-1.amazonaws.com
 +.s3-accesspoint-fips.dualstack.us-gov-east-1.amazonaws.com
 +.s3-accesspoint.dualstack.us-gov-east-1.amazonaws.com
++.s3-website.dualstack.us-gov-east-1.amazonaws.com
 +.s3-fips.dualstack.us-gov-east-1.amazonaws.com
 +.s3.dualstack.us-gov-east-1.amazonaws.com
 +.s3-fips.us-gov-east-1.amazonaws.com
