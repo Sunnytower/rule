@@ -76,6 +76,7 @@ media.cleanshot.cloud
 cdn.bullwhip.cloud
 resources-live.sketch.cloud
 +.gateway.pinata.cloud
+tiles.immich.cloud
 patterns.hiive.cloud
 cdn.craft.cloud
 cdn.tiny.cloud
@@ -99,6 +100,8 @@ media.remax-prod.eng.remax.tech
 static.pepy.tech
 packages.jetbrains.team
 pkg-cdn.jetbrains.team
+sdk.hubble.team
+cdn.hubble.team
 +.zenwave56.site
 res2.weblium.site
 nextra.site
@@ -247,6 +250,7 @@ assets.gcore.pro
 +.bmp.ovh
 static.freedownloadmanager.org
 rawmarkdown.cloudflareaccess.org
+tile.waymarkedtrails.org
 +.someonewhocares.org
 i.creativecommons.org
 +.wmfusercontent.org
@@ -254,6 +258,8 @@ playgroundcdn.typescriptlang.org
 www.typescriptlang.org
 assets.squarewebsites.org
 sdk.privacy-center.org
+tile.openweathermap.org
+tiles.openrailwaymap.org
 +.rescript-lang.org
 +.tile.openstreetmap.org
 assets.geeksforgeeks.org
@@ -263,6 +269,8 @@ assets.documentcloud.org
 s3.documentcloud.org
 +.streamhentai.org
 publicsuffix.org
++.openinframap.org
+tile2.opencyclemap.org
 proxy.joinmastodon.org
 cdn-media-2.freecodecamp.org
 cdn-media-1.freecodecamp.org
@@ -280,6 +288,7 @@ cdn.sciencecast.org
 +.qbittorrent.org
 +.stream.publicradio.org
 play.publicradio.org
+tile.opentopomap.org
 covers.openlibrary.org
 tiles.openfreemap.org
 media.hentaifreak.org
@@ -292,6 +301,9 @@ easylist-downloads.adblockplus.org
 tiles.versatiles.org
 +.torproject.org
 media.themoviedb.org
+tiles.openskimap.org
+tiles.maps.opensearch.org
+tiles.openseamap.org
 design.mayoclinic.org
 assets.mayoclinic.org
 seccdn.libravatar.org
@@ -341,6 +353,7 @@ fonts.codeberg.org
 static.aizanmei.org
 +.ziglang.org
 tools-static.wmflabs.org
+tiles.wmflabs.org
 +.proxy.ustclug.org
 cdn.userway.org
 +.typedoc.org
@@ -349,6 +362,7 @@ s.slideme.org
 pytorch.org
 videos.ohentai.org
 assets.nxtrace.org
+tile.nextzen.org
 archive.mozilla.org
 cdn.mathjax.org
 +.lsposed.org
@@ -381,6 +395,7 @@ cdn.pagic.org
 jotai.org
 +.cdn.icann.org
 godoc.org
+tileserver.gnome.org
 static.gnome.org
 +.eggjs.org
 +.hits.b3log.org
@@ -612,6 +627,7 @@ tvdownloaddw-a.akamaihd.net
 embedwistia-a.akamaihd.net
 ubistatic2-a.akamaihd.net
 steamvideo-a.akamaihd.net
+lolstatic-a.akamaihd.net
 steamcdn-a.akamaihd.net
 eaassets-a.akamaihd.net
 spoprod-a.akamaihd.net
@@ -689,8 +705,10 @@ icms-image.slatic.net
 +.sftcdn.net
 +.rspcdn.net
 +.redcdn.net
+tile.poloha.net
 +.poecdn.net
 maptile.osmand.net
+tile.osmand.net
 data.osmand.net
 attachments.office.net
 +.nel.measure.office.net
@@ -720,6 +738,7 @@ alt.idgesg.net
 practicaldev-herokuapp-com.freetls.fastly.net
 lastfm.freetls.fastly.net
 brick.freetls.fastly.net
+cartodb-basemaps-a.global.ssl.fastly.net
 brick.a.ssl.fastly.net
 +.eroimg.net
 +.dwncdn.net
@@ -842,6 +861,7 @@ static.izanmei.icu
 time-a.nist.gov
 images-assets.nasa.gov
 assets.science.nasa.gov
+tile.loc.gov
 cdn.usd.fan
 cdn.onetime.dog
 i.jpg.dog
@@ -1092,6 +1112,7 @@ assets-cdn.watchdisneyfe.com
 explorer-api.walletconnect.com
 js.verygoodvault.com
 +.transcend-cdn.com
+tile.thunderforest.com
 +.bundle.thimatic-apps.com
 cdn.thewirecutter.com
 files.thehackernews.com
@@ -1425,6 +1446,7 @@ assets1.lottiefiles.com
 cdn.livechatinc.com
 cdn.linearicons.com
 +.lbpictupian.com
+tiles-a.koordinates.com
 +.kleecks-cdn.com
 logos.kiwibrowser.com
 i.kickstarter.com
@@ -1582,6 +1604,7 @@ wp.salesforce.com
 cdn.safecharge.com
 +.ipfs.runfission.com
 +.report-uri.com
+tilecache.rainviewer.com
 qmod.quotemedia.com
 app.quotemedia.com
 cdn.promotekit.com
@@ -1619,6 +1642,7 @@ cdn.myfutanari.com
 assets.mastercard.com
 lift-ai-js.marketlinc.com
 clickup.marketlinc.com
+tiles.mapterhorn.com
 mantisloader.mantis-awx.com
 platforms.makemytrip.com
 fonts.mailerlite.com
@@ -1867,6 +1891,7 @@ assets.scaleflex.com
 +.runkitcdn.com
 cdn.royaleapi.com
 img.riskified.com
+cdn.playersupport.riotgames.com
 img.represent.com
 +.rawgithub.com
 +.siteintercept.qualtrics.com
@@ -1922,6 +1947,7 @@ csp.microsoft.com
 js.memberful.com
 static.mediafire.com
 images.mathworks.com
+tiles.mapillary.com
 form-assets.mailchimp.com
 cdn-images.mailchimp.com
 static.macupdate.com
@@ -2219,6 +2245,7 @@ resources.digital-cloud.medallia.com
 c.marsflag.com
 media.maptiler.com
 cdn.maptiler.com
+tiles.mapilion.com
 imag.malavida.com
 img-api.mac4ever.com
 +.lowescdn.com
@@ -2576,6 +2603,7 @@ image.mgstage.com
 acdn.mercury.com
 cdn.mercury.com
 static.maxmind.com
+tiles2.mapiful.com
 img-cos.mandaoo.com
 assets.mailgun.com
 i.magecdn.com
@@ -2858,6 +2886,7 @@ web-assets.strava.com
 content-a.strava.com
 cdn-1.strava.com
 cdn.stonly.com
++.tile.stamen.com
 +.ss-cdn.com
 +.sndimg.com
 +.sndcdn.com
@@ -2905,6 +2934,11 @@ static.probit.com
 cdn-3.porn87.com
 cdn-2.porn87.com
 cdn-1.porn87.com
+tiles3.planet.com
+tiles2.planet.com
+tiles1.planet.com
+tiles0.planet.com
+tiles.planet.com
 assets.pixlee.com
 +.pinimg.com
 +.phncdn.com
@@ -2964,6 +2998,7 @@ cdn-client.medium.com
 glyph.medium.com
 miro.medium.com
 twemoji.maxcdn.com
+tile.mapzen.com
 static-assets.mapbox.com
 +.tiles.mapbox.com
 test.manyse.com
@@ -3081,6 +3116,8 @@ static.beebom.com
 www.bbthat.com
 +.bblcdn.com
 +.avximg.com
+tiledbasemaps.arcgis.com
+tiles.arcgis.com
 assets.apnews.com
 dims.apnews.com
 +.aolcdn.com
@@ -3505,7 +3542,10 @@ static.dw.com
 evt.24.com
 +.pixiv.cat
 a.pomf.cat
+geoserveis.icgc.cat
+tilemaps.icgc.cat
 oss.moe.cat
++.tile.openstreetmap.bzh
 ns-cdn.neustar.biz
 pics.mf8.biz
 static.sdkassets.chime.aws
@@ -3554,6 +3594,7 @@ cdn.24.co.za
 s.pacn.ws
 +.imageshack.us
 appstatico.electronic.us
+tile.ourmap.us
 cdn.donmai.us
 us01ccistatic.zoom.us
 eu01ccistatic.zoom.us
@@ -3711,6 +3752,7 @@ s3.dzeninfra.ru
 +.imageban.ru
 +.images.androeed.ru
 +.missuo.ru
++.tile.osmz.ru
 static-effect.reg.ru
 files.reg.ru
 img.reg.ru
@@ -3833,6 +3875,7 @@ common-header.nimg.jp
 resource.video.nimg.jp
 +.cdn.nimg.jp
 i.gzn.jp
+tiles.gsj.jp
 nav.yumenosora.co.jp
 web-assets.zendesk.co.jp
 cdn.rex.contents.rakuten.co.jp
@@ -3927,6 +3970,7 @@ img.badgesize.io
 +.vsassets.io
 unavatar.io
 img.telemetr.io
+tile.skybrush.io
 +.cdn.manage.runcloud.io
 +.cdn.runcloud.io
 prettier.io
@@ -3981,6 +4025,7 @@ web-cdn.bitrise.io
 app-api.vidjet.io
 assets.upload.io
 js.upload.io
+tiles.terria.io
 static.status.io
 image.status.io
 media.smooch.io
@@ -4027,6 +4072,7 @@ js.smile.io
 js.short.io
 +.senja.io
 +.seadn.io
+cdn.rgpub.io
 documenter-assets.pstmn.io
 skills-assets.pstmn.io
 topbar-static.piano.io
@@ -4114,6 +4160,8 @@ cdn.sc.gl
 cms-cdn.now.gg
 cdn.now.gg
 cdn.gdl.gg
++.tile-cyclosm.openstreetmap.fr
++.tile.openstreetmap.fr
 assets.poool.fr
 s.rfi.fr
 assets.fireside.fm
@@ -4134,10 +4182,12 @@ utteranc.es
 secure-res.craft.do
 res.craft.do
 +.tile.openstreetmap.de
+tileserver.memomaps.de
 sp-spiegel-de.spiegel.de
 cdn.prod.www.spiegel.de
 www.acgpix.de
 cdn.ionos.de
+tile.mtbmap.cz
 +.ipfs.slang.cx
 assets.openalternative.co
 cdn.stackoverflow.co
@@ -4209,6 +4259,7 @@ assets.dub.co
 app.groove.cm
 static.infomaniak.ch
 +.ipfs.xoqq.ch
++.tile.osm.ch
 cdn2.turboviplay.cc
 +.pravatar.cc
 +.imagehub.cc
@@ -4237,10 +4288,12 @@ static.k2s.cc
 images.tg.cc
 img.tg.cc
 +.1passwordusercontent.ca
+tiles.arcticconnect.ca
 cdn.adsninja.ca
 cdn4.focus.bg
 components.cyclingfactory.be
 images.cyclingfactory.be
+tile.osm.be
 +.abc-cdn.net.au
 res.abc.net.au
 styleguide-assets.shannons.com.au
@@ -4248,6 +4301,7 @@ styleguide-assets.shannons.com.au
 subscriptions.news.com.au
 tags.news.com.au
 +.ipfs.greyh.at
+tiles.maps.eox.at
 i.snap.as
 solve-widget.forethought.ai
 +.shortpixel.ai
