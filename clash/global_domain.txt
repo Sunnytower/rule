@@ -1754,6 +1754,7 @@ cdn.conveythis.com
 assets.convertkit.com
 media.convertkit.com
 f.convertkit.com
+cdn.convertbox.com
 images.contentful.com
 cdn.contentful.com
 cdn.eu.contentful.com
@@ -4093,6 +4094,7 @@ data.pendo.io
 cdn.pendo.io
 +.nxcli.io
 media.mstdn.io
+purehalo.logto.io
 +.strapi.logto.io
 cdn-blocks.karte.io
 cdn-edge.karte.io
@@ -5609,6 +5611,7 @@ ftp.mirror.tw
 opensource.nchc.org.tw
 free.nchc.org.tw
 debian.cs.nycu.edu.tw
+kali.cs.nycu.edu.tw
 ubuntu.cs.nctu.edu.tw
 linux.cs.nctu.edu.tw
 ubuntu.ccns.ncku.edu.tw
