@@ -760,6 +760,7 @@ cdn.reimu.net
 img.pawoo.net
 +.nsimg.net
 static.monei.net
+assets.maxon.net
 static-cdn.jtvnw.net
 jsdelivr.ioiox.net
 static-act.imoim.net
@@ -4771,6 +4772,7 @@ mirror1.totbb.net
 mirrors.sonic.net
 mirror.pregi.net
 mirrors.netix.net
+mx-app-blob-prod.maxon.net
 mirror.limda.net
 mirror.init7.net
 down.filen.net
