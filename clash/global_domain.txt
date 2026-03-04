@@ -4279,6 +4279,7 @@ storageapi2.fleek.co
 storageapi.fleek.co
 previews.fleek.co
 +.ipfs.fleek.co
+cdn.delve.co
 load.csell.co
 cdn.chord.co
 log-collector.17app.co
@@ -4929,6 +4930,7 @@ downloads.cloudflareclient.com
 pkg.cloudflareclient.com
 +.circle-artifacts.com
 mirror.bharatdatacenter.com
+typeless-static.com
 +.androidfilehost.com
 mirrors.advancedhosters.com
 +.public.blob.vercel-storage.com
@@ -5373,6 +5375,7 @@ xvcf2.xboxlive.com
 xvcf1.xboxlive.com
 +.mirror.vexxhost.com
 mirror.verinomi.com
+cdn.vemetric.com
 mirror.ukrnames.com
 mirrors.storpool.com
 download.snipaste.com
@@ -5483,6 +5486,7 @@ mirror.xeonbd.com
 dl.wechat.com
 ubuntu.vpsttt.com
 mirror.vpsnet.com
+download.umbrel.com
 security.ubuntu.com
 +.archive.ubuntu.com
 +.ports.ubuntu.com
@@ -5911,6 +5915,7 @@ pkgs.netbird.io
 +.jitpack.io
 download.cypress.io
 cdn.cypress.io
+cdn.affonso.io
 rep-ubuntu-il.upress.io
 download.typora.io
 packages.httpie.io
