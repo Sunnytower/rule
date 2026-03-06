@@ -106,6 +106,7 @@ DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,wallstreetcn.com
 DOMAIN-SUFFIX,toutiaocloud.com
 DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,realmemobile.com
 DOMAIN-SUFFIX,huoshanzhibo.com
@@ -981,6 +982,7 @@ DOMAIN-SUFFIX,npupt.com
 DOMAIN-SUFFIX,hitpt.com
 DOMAIN-SUFFIX,hdupt.com
 DOMAIN-SUFFIX,dxdhd.com
+DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN,captive.apple.com
 DOMAIN,repeater.asus.com
 DOMAIN,router.asus.com
