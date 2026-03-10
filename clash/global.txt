@@ -82,7 +82,6 @@ DOMAIN-WILDCARD,fastly-*.allmovie.com
 DOMAIN-WILDCARD,cdn*.porn87.com
 DOMAIN-WILDCARD,cdn*.pornhost.com
 DOMAIN-WILDCARD,cdn*.boysfood.com
-
 DOMAIN-SUFFIX,community
 DOMAIN-SUFFIX,network
 DOMAIN-SUFFIX,x.company
@@ -1331,6 +1330,7 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,pinterest
+
 DOMAIN-WILDCARD,download*.mediafire.com
 DOMAIN-WILDCARD,ftp.??.debian.org
 DOMAIN-WILDCARD,ftp.??.freebsd.org

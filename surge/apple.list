@@ -24,7 +24,6 @@ PROCESS-NAME,fmfd
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,CoreLocationAgent
 PROCESS-NAME,WeatherWidget
-
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,cp4.cloudflare.com
