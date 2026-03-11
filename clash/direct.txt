@@ -908,6 +908,7 @@ DOMAIN-SUFFIX,hdpost.top
 DOMAIN-SUFFIX,osapublishing.org
 DOMAIN-SUFFIX,sciencemag.org
 DOMAIN-SUFFIX,icetorrent.org
+DOMAIN,public.localsend.org
 DOMAIN-SUFFIX,cabdirect.org
 DOMAIN-SUFFIX,hd-space.org
 DOMAIN-SUFFIX,eastgame.org
