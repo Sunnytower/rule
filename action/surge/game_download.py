@@ -1,7 +1,7 @@
 import os
 import requests
 urls = [
-"https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SteamCN/SteamCN.list",
 ]
 result = []
 for url in urls:
@@ -10,7 +10,7 @@ for url in urls:
         if (item not in result) and (not item.startswith('#')):
             result.append(item)
 
-file_path = "./clash/microsoft.txt"
+file_path = "./surge/game_download.list"
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 with open(file_path, "w") as f:

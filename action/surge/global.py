@@ -1,7 +1,6 @@
 import os
 import requests
 urls = [
-# "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list",
 "https://ruleset.skk.moe/List/non_ip/cdn.conf",
 "https://ruleset.skk.moe/List/non_ip/global.conf",
 "https://ruleset.skk.moe/List/non_ip/download.conf",
