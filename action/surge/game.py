@@ -2,6 +2,8 @@ import os
 import requests
 urls = [
 "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list",
+"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PlayStation/PlayStation.list",
+"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Nintendo/Nintendo.list"
 ]
 result = []
 for url in urls:
