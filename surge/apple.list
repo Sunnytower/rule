@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,apple.co
-PROCESS-NAME,netbiosd
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,mapspushd
 PROCESS-NAME,com.apple.Maps
@@ -24,6 +23,7 @@ PROCESS-NAME,fmfd
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,CoreLocationAgent
 PROCESS-NAME,WeatherWidget
+IP-CIDR,17.0.0.0/8,no-resolve
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,cp4.cloudflare.com
