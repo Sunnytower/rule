@@ -7,7 +7,7 @@ sources = (
 )
 rules = load_rules(
     sources,
-    deny={"URL-REGEX", "IP-CIDR", "IP-CIDR6", "IP-ASN"},
+    deny={"IP-CIDR", "IP-CIDR6", "IP-ASN"},
 )
 write_rules(
     "ai.list",

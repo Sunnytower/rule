@@ -1,10 +1,13 @@
 from _common import load_rules, remove_values, write_rules
 
 
-sources = ("https://ruleset.skk.moe/List/non_ip/domestic.conf",)
+sources = (
+    "https://ruleset.skk.moe/List/non_ip/domestic.conf",
+    "https://ruleset.skk.moe/List/non_ip/direct.conf",
+)
 rules = load_rules(
     sources,
-    deny={"URL-REGEX", "IP-CIDR", "IP-CIDR6", "IP-ASN"},
+    deny={"IP-CIDR", "IP-CIDR6", "IP-ASN"},
 )
 rules = remove_values(
     rules,
