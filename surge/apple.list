@@ -1,9 +1,9 @@
 # NAME: Apple Default Proxy
 # SOURCE: https://ruleset.skk.moe/List/non_ip/apple_services.conf
-# SOURCE: https://ruleset.skk.moe/List/non_ip/apple_cn.conf
+# SOURCE: https://raw.githubusercontent.com/Blankwonder/surge-list/master/apple.list
 # LICENSE: AGPL-3.0
 # NOTE: Place apple_direct.list before this ruleset.
-# TOTAL: 33
+# TOTAL: 29
 
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple.co
@@ -29,12 +29,8 @@ PROCESS-NAME,fmfd
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,CoreLocationAgent
 PROCESS-NAME,WeatherWidget
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,cn.apple.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,cn.ls.apple.com
-DOMAIN,api.smoot.apple.cn
-DOMAIN-SUFFIX,cn-ssl.ls.apple.com
-DOMAIN,gs-loc-cn.apple.com
-DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com
-DOMAIN,appleintelligencefeedback.care.apple.com
+DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
+PROCESS-NAME,storedownloadd // Mac App Store
+USER-AGENT,com.apple.appstored* // iOS App Store
