@@ -1,4 +1,10 @@
-DOMAIN,7h15_ru1353t_1s_m4d3_by_5ukk4w.skk.moe
+# NAME: AI and Apple Intelligence
+# SOURCE: https://ruleset.skk.moe/List/non_ip/ai.conf
+# SOURCE: https://ruleset.skk.moe/List/non_ip/apple_intelligence.conf
+# LICENSE: AGPL-3.0
+# NOTE: Place before apple_direct.list because Apple Intelligence uses an ls.apple.com hostname.
+# TOTAL: 53
+
 DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,ai.com
@@ -47,4 +53,8 @@ DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com

@@ -1,19 +1,19 @@
-import os
-import requests
-urls = [
-"https://ruleset.skk.moe/List/non_ip/cdn.conf",
-"https://ruleset.skk.moe/List/non_ip/global.conf",
-"https://ruleset.skk.moe/List/non_ip/download.conf",
-]
-result = []
-for url in urls:
-    resource_text = requests.get(url).text
-    for item in resource_text.split("\n"):
-        if (item not in result) and (not item.startswith('#')):
-            result.append(item)
+from _common import load_rules, write_rules
 
-file_path = "./surge/global.list"
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open(file_path, "w") as f:
-    f.write("\n".join(result))
+sources = (
+    "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+)
+rules = load_rules(
+    sources,
+    deny={"URL-REGEX", "IP-CIDR", "IP-CIDR6", "IP-ASN"},
+)
+write_rules(
+    "global.list",
+    "General Global and CDN Proxy",
+    sources,
+    rules,
+    ("download.conf is not merged; unmatched overseas and NSFW traffic remains covered by FINAL,Proxy.",),
+    "AGPL-3.0",
+)

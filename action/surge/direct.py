@@ -1,18 +1,31 @@
-import os
-import requests
-urls = [
-"https://ruleset.skk.moe/List/non_ip/domestic.conf",
-"https://ruleset.skk.moe/List/non_ip/direct.conf",
-]
-result = []
-for url in urls:
-    resource_text = requests.get(url).text
-    for item in resource_text.split("\n"):
-        if (item not in result) and (not item.startswith('#')):
-            result.append(item)
+from _common import load_rules, remove_values, write_rules
 
-file_path = "./surge/direct.list"
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open(file_path, "w") as f:
-    f.write("\n".join(result))
+sources = ("https://ruleset.skk.moe/List/non_ip/domestic.conf",)
+rules = load_rules(
+    sources,
+    deny={"URL-REGEX", "IP-CIDR", "IP-CIDR6", "IP-ASN"},
+)
+rules = remove_values(
+    rules,
+    {
+        "battle.net",
+        "blizzard.com",
+        "cm.steampowered.com",
+        "klook.com",
+        "steam.clngaa.com",
+        "steam.ksyna.com",
+        "steamchina.com",
+        "steamcontent.com",
+        "steamserver.net",
+        "steamusercontent.com",
+    },
+)
+write_rules(
+    "direct.list",
+    "Mainland China Domestic Direct",
+    sources,
+    rules,
+    ("Sukka direct.conf is not merged; generic Steam CDN suffixes are left to the later China IP rule.",),
+    "AGPL-3.0",
+)

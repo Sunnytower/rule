@@ -1,18 +1,16 @@
-import os
-import requests
-urls = [
-"https://ruleset.skk.moe/List/ip/domestic.conf",
-"https://ruleset.skk.moe/List/ip/china_ip.conf",
-]
-result = []
-for url in urls:
-    resource_text = requests.get(url).text
-    for item in resource_text.split("\n"):
-        if (item not in result) and (not item.startswith('#')):
-            result.append(item)
+from _common import load_rules, write_rules
 
-file_path = "./surge/china_ip.list"
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open(file_path, "w") as f:
-    f.write("\n".join(result))
+sources = (
+    "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "https://ruleset.skk.moe/List/ip/china_ip.conf",
+)
+rules = load_rules(sources, allow={"IP-CIDR", "IP-CIDR6", "IP-ASN"})
+write_rules(
+    "china_ip.list",
+    "Mainland China IP Direct",
+    sources,
+    rules,
+    ("Place near the end of the rule section after all domain rules.",),
+    "AGPL-3.0 and CC-BY-SA-2.0",
+)

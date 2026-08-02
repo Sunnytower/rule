@@ -1,17 +1,51 @@
-import os
-import requests
-urls = [
-"https://ruleset.skk.moe/Clash/non_ip/microsoft.txt",
-]
-result = []
-for url in urls:
-    resource_text = requests.get(url).text
-    for item in resource_text.split("\n"):
-        if (item not in result) and (not item.startswith('#')):
-            result.append(item)
+from _common import load_rules, unique, write_rules
 
-file_path = "./surge/microsoft.list"
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-with open(file_path, "w") as f:
-    f.write("\n".join(result))
+sources = (
+    "https://ruleset.skk.moe/List/non_ip/microsoft.conf",
+    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf",
+)
+rules = load_rules(
+    sources,
+    deny={"URL-REGEX", "IP-CIDR", "IP-CIDR6", "IP-ASN"},
+)
+rules = unique(
+    rules
+    + [
+        "DOMAIN-SUFFIX,aadrm.cn",
+        "DOMAIN-SUFFIX,azure.cn",
+        "DOMAIN-SUFFIX,bing.com.cn",
+        "DOMAIN-SUFFIX,biying.cn",
+        "DOMAIN-SUFFIX,biying.com.cn",
+        "DOMAIN-SUFFIX,chinacloudapi.cn",
+        "DOMAIN-SUFFIX,chinacloudapp.cn",
+        "DOMAIN-SUFFIX,chinacloudsites.cn",
+        "DOMAIN-SUFFIX,live.cn",
+        "DOMAIN-SUFFIX,lync.cn",
+        "DOMAIN-SUFFIX,microsoft-online.cn",
+        "DOMAIN-SUFFIX,microsoftonline.cn",
+        "DOMAIN-SUFFIX,msappproxy.cn",
+        "DOMAIN-SUFFIX,msauth.cn",
+        "DOMAIN-SUFFIX,msauthimages.cn",
+        "DOMAIN-SUFFIX,msftauth.cn",
+        "DOMAIN-SUFFIX,msftauthimages.cn",
+        "DOMAIN-SUFFIX,msidentity.cn",
+        "DOMAIN-SUFFIX,msn.cn",
+        "DOMAIN-SUFFIX,office365.cn",
+        "DOMAIN-SUFFIX,officewebapps.cn",
+        "DOMAIN-SUFFIX,onmschina.cn",
+        "DOMAIN-SUFFIX,outlook.cn",
+        "DOMAIN-SUFFIX,powerapps.cn",
+        "DOMAIN-SUFFIX,powerbi.cn",
+        "DOMAIN-SUFFIX,sharepoint.cn",
+        "DOMAIN-SUFFIX,xboxlive.cn",
+    ]
+)
+write_rules(
+    "microsoft.list",
+    "Microsoft Default Proxy",
+    sources,
+    rules,
+    ("Includes Microsoft mainland CDN and a compact set of common China endpoints.",),
+    "AGPL-3.0",
+)

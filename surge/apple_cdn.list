@@ -1,4 +1,9 @@
-7h15_ru1353t_1s_m4d3_by_5ukk4w.skk.moe
+# NAME: Apple Mainland CDN Default Proxy
+# SOURCE: https://ruleset.skk.moe/List/domainset/apple_cdn.conf
+# LICENSE: AGPL-3.0
+# NOTE: Use as DOMAIN-SET and assign to Apple rather than DIRECT.
+# TOTAL: 158
+
 .xp.apple.com
 .cds.apple.com
 .cl1.apple.com

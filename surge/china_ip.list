@@ -1,4 +1,10 @@
-DOMAIN,7h15_ru1353t_1s_m4d3_by_5ukk4w.skk.moe
+# NAME: Mainland China IP Direct
+# SOURCE: https://ruleset.skk.moe/List/ip/domestic.conf
+# SOURCE: https://ruleset.skk.moe/List/ip/china_ip.conf
+# LICENSE: AGPL-3.0 and CC-BY-SA-2.0
+# NOTE: Place near the end of the rule section after all domain rules.
+# TOTAL: 3909
+
 IP-CIDR,140.205.1.0/24,no-resolve
 IP-CIDR,162.14.0.0/18,no-resolve
 IP-CIDR,1.1.8.0/24
@@ -2700,7 +2706,6 @@ IP-CIDR,163.227.40.0/23
 IP-CIDR,163.228.0.0/16
 IP-CIDR,163.244.246.0/24
 IP-CIDR,165.101.70.0/24
-IP-CIDR,165.101.208.0/23
 IP-CIDR,166.0.97.0/24
 IP-CIDR,166.0.100.0/23
 IP-CIDR,166.111.0.0/16
