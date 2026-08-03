@@ -1272,6 +1272,7 @@ DOMAIN-SUFFIX,redbullracing.com
 DOMAIN-SUFFIX,stackexchange.com
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,thaiheadlines.com
+DOMAIN-SUFFIX,trainingpeaks.com
 DOMAIN-SUFFIX,trycloudflare.com
 DOMAIN-SUFFIX,videodelivery.net
 DOMAIN-SUFFIX,wikifunctions.org
@@ -1360,4 +1361,5 @@ DOMAIN-WILDCARD,*.s3.*.backblazeb2.com
 DOMAIN-WILDCARD,cdn-*.comaps.app
 DOMAIN-WILDCARD,cdn-*.comaps.tech
 DOMAIN-WILDCARD,cdn-*.organicmaps.app
+DOMAIN-WILDCARD,dl-*.mypikpak.com
 URL-REGEX,^http://(.+)\.gvt\d\.com/edgedl
