@@ -3,7 +3,6 @@ from _common import load_rules, unique, write_rules
 
 sources = (
     "https://ruleset.skk.moe/List/non_ip/microsoft.conf",
-    "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf",
 )
 rules = load_rules(
     sources,
