@@ -3,7 +3,7 @@
 # SOURCE: https://ruleset.skk.moe/List/ip/china_ip.conf
 # LICENSE: AGPL-3.0 and CC-BY-SA-2.0
 # NOTE: Place near the end of the rule section after all domain rules.
-# TOTAL: 3910
+# TOTAL: 3909
 
 IP-CIDR,140.205.1.0/24,no-resolve
 IP-CIDR,162.14.0.0/18,no-resolve
@@ -368,7 +368,6 @@ IP-CIDR,45.61.226.0/24
 IP-CIDR,45.65.20.0/22
 IP-CIDR,45.67.223.0/24
 IP-CIDR,45.81.34.0/24
-IP-CIDR,45.91.139.0/24
 IP-CIDR,45.112.232.0/22
 IP-CIDR,45.113.20.0/22
 IP-CIDR,45.113.24.0/22
