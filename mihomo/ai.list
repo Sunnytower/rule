@@ -48,7 +48,6 @@ DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
-URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
 DOMAIN,cp4.cloudflare.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com

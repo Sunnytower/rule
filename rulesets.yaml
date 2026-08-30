@@ -1,0 +1,205 @@
+# 规则组名称同时决定输出路径：
+#   surge/<name>.list
+#   sing-box/<name>.json
+#   mihomo/<name>.list（classical text rule-provider）
+# Mihomo 优先使用上游原生规则；format: mihomo 支持 Mihomo/Clash classical text 和裸 CIDR text。
+# 仅无原生源时才将 Surge 源加入 mihomo target；转换会省略 USER-AGENT 和 URL-REGEX，
+# 其他未知类型会中止构建。
+# 原生源下载或解析失败同样会中止，不会静默回退到转换源。
+#
+# 可在任意规则组下增加少量本地规则：
+# targets 可省略，默认应用到该规则组的全部输出。
+# value 与 values 二选一；values 中的每个值共用同一组 type、targets 和 options。
+#   custom:
+#     add:
+#       - type: domain_suffix
+#         values: [test.com, example.com]
+#         targets: [surge, sing-box, mihomo]
+#     remove:
+#       - type: domain
+#         value: obsolete.example.com
+#         targets: [surge, sing-box, mihomo]
+
+rulesets:
+  ai:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/ai.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/List/non_ip/apple_intelligence.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/ai.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/Clash/non_ip/apple_intelligence.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/ai.json
+        format: sing-box
+        targets: [sing-box]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/apple_intelligence.json
+        format: sing-box
+        targets: [sing-box]
+
+  apple:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/apple_services.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/apple_services.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/apple_services.json
+        format: sing-box
+        targets: [sing-box]
+
+  apple_direct:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/apple_cn.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/apple_cn.json
+        format: sing-box
+        targets: [sing-box]
+
+  china_ip:
+    sources:
+      - url: https://ruleset.skk.moe/List/ip/domestic.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/List/ip/china_ip.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/ip/domestic.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/Clash/ip/china_ip.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/ip/domestic.json
+        format: sing-box
+        targets: [sing-box]
+      - url: https://ruleset.skk.moe/sing-box/ip/china_ip.json
+        format: sing-box
+        targets: [sing-box]
+
+  direct:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/domestic.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/List/non_ip/direct.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/domestic.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/Clash/non_ip/direct.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/domestic.json
+        format: sing-box
+        targets: [sing-box]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/direct.json
+        format: sing-box
+        targets: [sing-box]
+
+  game:
+    sources:
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list
+        format: surge
+        targets: [surge, sing-box]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PlayStation/PlayStation.list
+        format: surge
+        targets: [surge, sing-box]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Nintendo/Nintendo.list
+        format: surge
+        targets: [surge, sing-box]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.list
+        format: mihomo
+        targets: [mihomo]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PlayStation/PlayStation.list
+        format: mihomo
+        targets: [mihomo]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list
+        format: mihomo
+        targets: [mihomo]
+
+  game_download:
+    sources:
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SteamCN/SteamCN.list
+        format: surge
+        targets: [surge, sing-box]
+      - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
+        format: mihomo
+        targets: [mihomo]
+
+  global:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/cdn.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/List/non_ip/global.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/List/non_ip/download.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/cdn.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/Clash/non_ip/global.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/Clash/non_ip/download.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/cdn.json
+        format: sing-box
+        targets: [sing-box]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/global.json
+        format: sing-box
+        targets: [sing-box]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/download.json
+        format: sing-box
+        targets: [sing-box]
+
+  media:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/stream.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/stream.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/stream.json
+        format: sing-box
+        targets: [sing-box]
+
+  media_ip:
+    sources:
+      - url: https://ruleset.skk.moe/List/ip/stream.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/ip/stream.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/ip/stream.json
+        format: sing-box
+        targets: [sing-box]
+
+  microsoft:
+    sources:
+      - url: https://ruleset.skk.moe/List/non_ip/microsoft.conf
+        format: surge
+        targets: [surge]
+      - url: https://ruleset.skk.moe/Clash/non_ip/microsoft.txt
+        format: mihomo
+        targets: [mihomo]
+      - url: https://ruleset.skk.moe/sing-box/non_ip/microsoft.json
+        format: sing-box
+        targets: [sing-box]

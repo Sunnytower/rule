@@ -1350,7 +1350,6 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,browserleaks
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,pinterest
-USER-AGENT,Roam*
 DOMAIN-WILDCARD,download*.mediafire.com
 DOMAIN-WILDCARD,ftp.??.debian.org
 DOMAIN-WILDCARD,ftp.??.freebsd.org
@@ -1360,4 +1359,3 @@ DOMAIN-WILDCARD,cdn-*.comaps.app
 DOMAIN-WILDCARD,cdn-*.comaps.tech
 DOMAIN-WILDCARD,cdn-*.organicmaps.app
 DOMAIN-WILDCARD,dl-*.mypikpak.com
-URL-REGEX,^http://(.+)\.gvt\d\.com/edgedl
