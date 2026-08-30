@@ -24,9 +24,3 @@ PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,CoreLocationAgent
 PROCESS-NAME,WeatherWidget
 IP-CIDR,17.0.0.0/8,no-resolve
-
-DOMAIN,cp4.cloudflare.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
