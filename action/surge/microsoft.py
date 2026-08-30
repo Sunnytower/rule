@@ -1,7 +1,7 @@
 import os
 import requests
 urls = [
-"https://ruleset.skk.moe/Clash/non_ip/microsoft.txt",
+"https://ruleset.skk.moe/List/non_ip/microsoft.conf",
 ]
 result = []
 for url in urls:

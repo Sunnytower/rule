@@ -1,7 +1,7 @@
 import os
 import requests
 urls = [
-"https://ruleset.skk.moe/List/domainset/apple_cdn.conf",
+"https://ruleset.skk.moe/List/non_ip/apple_cn.conf",
 ]
 result = []
 for url in urls:
@@ -10,7 +10,7 @@ for url in urls:
         if (item not in result) and (not item.startswith('#')):
             result.append(item)
 
-file_path = "./surge/apple_cdn.list"
+file_path = "./surge/apple_direct.list"
 os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
 with open(file_path, "w") as f:

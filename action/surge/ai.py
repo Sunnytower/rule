@@ -2,6 +2,7 @@ import os
 import requests
 urls = [
 "https://ruleset.skk.moe/List/non_ip/ai.conf",
+"https://ruleset.skk.moe/List/non_ip/apple_intelligence.conf",
 ]
 result = []
 for url in urls:
