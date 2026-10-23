@@ -83,6 +83,7 @@ DOMAIN-WILDCARD,cdn*.porn87.com
 DOMAIN-WILDCARD,cdn*.pornhost.com
 DOMAIN-WILDCARD,cdn*.boysfood.com
 DOMAIN-WILDCARD,rum-ingest.*.signalfx.com
+DOMAIN-WILDCARD,cf-images.*.prod.boltdns.net
 DOMAIN-SUFFIX,ac
 DOMAIN-SUFFIX,ai
 DOMAIN-SUFFIX,at
